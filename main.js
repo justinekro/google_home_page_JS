@@ -34,3 +34,13 @@ monBoutonDeRecherche.onclick = function() {
 }
 
 // Troisième partie : créer une fenêtre popup
+
+function popup() {
+
+	window.alert ("Va voir ce site complètement malveillant c'est top !!!!!!! ");
+}
+
+setTimeout(popup, 2000 );
+
+
+
