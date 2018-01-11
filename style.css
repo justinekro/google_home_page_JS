@@ -164,3 +164,9 @@ footer a:hover{
 .footer_right a{
   padding-right: 27px;
 }
+
+
+/* Bouton afficher éléments (cf Javascript*/
+
+#buttonjs
+{display: flex;}

@@ -8,6 +8,7 @@
 
 <body>
 
+
 	<header id="menu">
 
 <div class="option"> Gmail </div>
@@ -15,24 +16,33 @@
 <div class="option"> <img src="picture/menu.png" alt="Logo du menu"/> </div>
 
 <div class="option button"> Sign in </div>
-
-
+!
 	</header>
 
-<div class="logo">
+
+<button id="buttonjs">AFFICHER LES ÉLEMENTS CENTRAUX</button>
+
+
+<div id ="logo" class="logo" style= "display:none">
+  
   <img src="picture/googlelogo.png"/>
+
 </div>
 
 
-<div class="searchbar">
-    <input type="text" />
+<div id="searchbar" class="searchbar" style= "display:none">
+    
+    <input type="text" id="recherche" value=""/>
+
 </div>
 
-<div class="searchbutton">
-<div class="button"> Google Search </div>
+<div id="searchbutton" class="searchbutton" style= "display:none">
+
+<div id="googlesearch" class="button"> Google Search </div> 
 <div class="button"> I'm Feeling Lucky </div>
 
 </div>
+
 
 <footer>
   <div class="footer_country">
@@ -55,5 +65,7 @@
   </div>
 
 </footer>
+
+<script src="main.js"></script>
 
 </body>
